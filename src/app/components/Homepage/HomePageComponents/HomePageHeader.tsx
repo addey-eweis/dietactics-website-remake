@@ -2,9 +2,8 @@
 import styles from "./HomePageHeader.module.scss"
 import Link from "next/link";
 import React from "react";
-import {HashLink as LinkAnchor} from 'react-router-hash-link';
 import ServicesComponent from "@/app/components/Homepage/ServicesComponent/ServicesComponent";
-import SupplyChainIntelComponent from "@/app/components/Homepage/SupplyChainIntelComponent/SupplyChainIntelComponent";
+// import SupplyChainIntelComponent from "@/app/components/Homepage/SupplyChainIntelComponent/SupplyChainIntelComponent";
 
 export default function HomePageHeader() {
     return (<>
